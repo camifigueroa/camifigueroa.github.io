@@ -15,7 +15,7 @@
 //se hace así en javascript
 var diametro; 
 //solo despues de declara podemos asignarle un valor pero solo despues de declarar
-diametro = 90;
+diametro = 90
 
 
 //existen dos tipos de variables
@@ -27,17 +27,18 @@ diametro = 90;
 //setup()corre una vez al principio  
 function setup() {
   //crear un lienzo y se escribe asi (dimHor, dimVer);
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight );
   
   //crear variable local verde
-  var verde = 12;
+
+  var verde = 012;
   //atajo: se puede declarar y asignar un valor inicial en una misma linea asi
   // var verde = 255
   
   
   //pintar el fondo del lienzo
   //usar comando backgroung(color);
-  background (80, verde, 50); 
+  background (080, verde, 050); 
   
 
 }
@@ -45,7 +46,7 @@ function setup() {
 //draw() corre luego de setup, 60 veces por segundo
 function draw() {
   
-   background (80, 12, 50); 
+   background (080, 012, 050); 
   
   //crear una elipse en el mouse
   //ellipse(posX, posY, width, height);
