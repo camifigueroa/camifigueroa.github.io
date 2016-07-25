@@ -16,23 +16,6 @@
 var diametro; 
 //solo despues de declara podemos asignarle un valor pero solo despues de declarar
 diametro = 90
-//variable for ctracker
-var ctracker;
-
-//variable for camera capture
-var videoInput;
-//variables for camera image width and height
-var camW, camH;
-
-//variables for scaling images of camera and potato
-var scaling_cam;
-var scaling_potato;
-
-//preload function
-function preload() {
-  //load potato image from folder
-  potato = loadImage("potato.gif");
-}
 
 
 //existen dos tipos de variables
